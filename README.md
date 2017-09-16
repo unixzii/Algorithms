@@ -1,5 +1,7 @@
 # Common Algorithms
 
+[![Travis](https://travis-ci.org/unixzii/Algorithms.svg?branch=master)](https://travis-ci.org/unixzii/Algorithms)
+
 This project contains a group of common algorithms implemented in Java and each provides a complete unit test.
 
 By far, it's just at a very beginning state and more algorithms will be added in continuously. Currently finished ones are listed below:
