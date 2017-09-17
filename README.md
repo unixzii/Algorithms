@@ -11,5 +11,14 @@ By far, it's just at a very beginning state and more algorithms will be added in
 * Quick Sort
 * Heapsort
 
+### Graph
+* Graph Data Structure
+* DFS
+* BFS
+
+### N-Queens
+* Classic Recursive Algorithm
+* Bitwise Algorithm
+
 ## License
 This project is maintained by Cyandev and does not use a license, feel free to take advantage and refer.
