@@ -25,7 +25,7 @@ public class SortingTest {
             {9, 8, 7, 6, 5, 4, 3, 2, 1}
     };
 
-    private static final int[][] SAMPLE_EXPECT = {
+    private static final int[][] SAMPLE_EXPECTS = {
             {1, 2, 3},
             {2, 3, 4, 5, 15, 19, 26, 27, 36, 38, 44, 46, 47, 48, 50},
             {2, 5, 8, 8, 9, 12, 13, 17, 36, 43, 45, 49},
@@ -67,7 +67,7 @@ public class SortingTest {
         for (int i = 0; i < SAMPLE_DATA.length; i++) {
             int[] data = Arrays.copyOf(SAMPLE_DATA[i], SAMPLE_DATA[i].length);
             sorter.sort(data);
-            assertArrayEquals(SAMPLE_EXPECT[i], data);
+            assertArrayEquals(SAMPLE_EXPECTS[i], data);
         }
 
         sorter.sort(mLargeDataSet);
