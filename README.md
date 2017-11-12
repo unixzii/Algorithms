@@ -20,5 +20,11 @@ By far, it's just at a very beginning state and more algorithms will be added in
 * Classic Recursive Algorithm
 * Bitwise Algorithm
 
+### Path Finding
+* A*
+
+### Dynamic Programming
+* Longest Common Subsequence
+
 ## License
 This project is maintained by Cyandev and does not use a license, feel free to take advantage and refer.
