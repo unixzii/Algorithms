@@ -7,7 +7,9 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
         SortingTest.class,
         GraphTest.class,
-        NQueensTest.class
+        NQueensTest.class,
+        PathfindingTest.class,
+        LCSTest.class
 })
 public class AlgorithmsTestSuite {
 }
